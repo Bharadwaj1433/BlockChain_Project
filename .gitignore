@@ -1,0 +1,65 @@
+# Node modules
+/node_modules
+
+# Compilation output
+/dist
+
+# pnpm deploy output
+/bundle
+
+# Hardhat Build Artifacts
+/artifacts
+
+# Hardhat compilation (v2) support directory
+/cache
+
+# Typechain output
+/types
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Hardhat coverage reports
+/coverage
+
+# Gas snapshot files
+/.gas-snapshot
+
+# Snapshot cheatcodes output
+/snapshots
+
+# Dependencies
+**/node_modules/
+
+# Build and temporary files
+**/dist/
+**/artifacts/
+**/cache/
+**/coverage/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Netlify local files
+.netlify/
+
+# Temporary backup files
+*.backup
+*.before-connection-cleanup.*
+
+# Hardhat deployment compiler artifacts
+ignition/deployments/*/build-info/
